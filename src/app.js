@@ -1,6 +1,7 @@
 window.onload = function() {
-  //write your code here
-  document.querySelector("#excusa").innerHTML = generador();
+  document.querySelector("#btn").addEventListener("click", function() {
+    document.querySelector("#excusa").innerHTML = generador();
+  });
   console.log("");
 };
 let generador = function() {
